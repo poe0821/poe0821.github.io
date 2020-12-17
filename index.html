@@ -39,12 +39,12 @@
 					to not only become a better Software Engineer, but <b>person</b>.
 				</p>
 				<p>
-					I'm currently looking for a New Graduate Software Engineering role for the year 2021.
+					I'm currently looking for a New Graduate and/or Intern Software Engineering role for the year 2021.
 				</p>
 				<p>Feel free to learn a little more about me and/or contact me using the tabs above <i class="far fa-hand-point-up"></i>. Enjoy!</p>
 				<p>
 					You can also download a copy of my <em><u>resume</u></em> here!
-					<a class="btn btn-info" href="Paul_Luo_Resume_2020.pdf" role="button" target="_blank" download><i class="fas fa-file-download"></i></a>
+					<a class="btn btn-info" href="Paul_Luo_Resume_2021.pdf" role="button" target="_blank" download><i class="fas fa-file-download"></i></a>
 				</p>
 			</article>
 			<!-- About Me -->
@@ -80,18 +80,19 @@
 				<ul class="list-left">
 					<li>C++/C</li>
 					<li>Python</li>
+					<li>HTML/CSS</li>
 					<li>Javascript</li>
 					<li>SQL</li>
 					<li>Golang</li>
 					<li>Java</li>
 				</ul>
 				<ul class="list-right">
-					<li>HTML/CSS</li>
 					<li>MongoDB/Oracle</li>
 					<li>Node</li>
 					<li>Express</li>
 					<li>AWS</li>
 					<li>Git</li>
+					<li>React</li>
 				</ul>
 			</article>
 			<!-- Projects -->
@@ -101,11 +102,30 @@
 				</header>
 				<section>
 					<div class="row">
+						<!-- 1st Project -->
+						<div class="col-lg-6 mb-3">
+							<div class="card">
+								<img class="card-img-top" src="images/fs.jpg" alt="network_fs_image">
+								<hr>
+								<div class="card-body">
+									<h5 class="card-title">Multi-threaded Network file Server</h5>
+									<p class="card-text">
+										This program written in C++ combines all my knowledge of multi-threading, socket programming, hierarchical file systems,
+										client-server file systems, and security protocols into one. A basic client infrastructure issues TCP/IP requests to a file server
+										that are serviced using Linux sockt programming utilities. The file server then validates the client's unique username, 
+										password, and action to either create, delete, read and/or write to the file system within a given session and sequence to prevent
+										repeat attacks. The tasks are then issued in parallel, so handling concurrency and atomicity with the C++ Standard mutex and thread 
+										library were used to ensure correctness. Overall this project was extremely challenging and I truly enjoyed figuring out the 
+										nitty-gritty aspects of ordering of tasks as well as nested files and directory allocation in memory.
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- 2nd Project -->
 						<div class="col-lg-6 mb-3">
 							<div class="card">
 								<img class="card-img-top" src="images/recipe.jpg" alt="recipe_image">
 								<hr>
-								<!-- 1st Project -->
 								<div class="card-body">
 									<h5 class="card-title">Recipe App (in progress)</h5>
 									<p class="card-text">
@@ -121,7 +141,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- 2nd Project -->
+						<!-- 3rd Project -->
 						<div class="col-lg-6 mb-3">
 							<div class="card">
 								<img class="card-img-top" src="images/review.jpg" alt="phone_image">
@@ -139,7 +159,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- 3rd Project -->
+						<!-- 4th Project -->
 						<div class="col-lg-6 mb-3">
 							<div class="card">
 								<img class="card-img-top" src="images/social_media.png" alt="social_image">
@@ -154,24 +174,6 @@
 										results of the queries into JSON format for easier exportation into MongoDB and extraction using vanilla JavaScript. 
 										I really enjoyed being able to transfer what I learned about relational and non-relational databases into working 
 										code that simulates significant real-life applications.
-									</p>
-								</div>
-							</div>
-						</div>
-						<!-- 4th Project -->
-						<div class="col-lg-6 mb-3">
-							<div class="card">
-								<img class="card-img-top" src="images/maze.jpg" alt="maze_image">
-								<hr>
-								<div class="card-body">
-									<h5 class="card-title">3D Maze Game Solver</h5>
-									<p class="card-text">
-										My first-ever individual project that I cherish nostalgically. The project is essentially a "design your own"
-										maze game, where a user specifies a starting and ending point using ASCII characters, but also has to create
-										their own maze primarily using letters and the pound (#) character as walls/doors. The map is then imported 
-										and read through the command line, where my C++ program utilizes the stack and queue data structures along with
-										depth-first-search (DFS) and breadth-first-search (BFS) algorithms to determine an optimal path through the maze. 
-										The program would then translate and output each step to complete the maze if possible onto a text file within the same directory.
 									</p>
 								</div>
 							</div>
@@ -193,7 +195,7 @@
 						<h4>Software Engineer Intern</h4>
 						<p>Jan 2020 - Dec 2020</p>
 						<div>
-							<a href="https://www.gm.com/">General Motors</a>
+							<a href="https://www.gm.com/">General Motors (Website)</a>
 						</div>
 						<div>
 							<span class="topic">Python</span>
@@ -229,7 +231,7 @@
 						<h4>Computer Science Intern</h4>
 						<p>Jun 2019 - Aug 2019</p>
 						<div>
-							<a href="https://www.coding4youth.org/">Coding4Youth</a>
+							<a href="https://www.coding4youth.org/">Coding4Youth (Website)</a>
 						</div>
 						<div>
 							<span class="topic">Communication</span>
